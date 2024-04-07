@@ -1,4 +1,5 @@
 import 'package:doctor_app/core/routing/app_router.dart';
+import 'package:doctor_app/core/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -14,7 +15,8 @@ class DoctorApp extends StatelessWidget {
       child: MaterialApp.router(
         title: 'Doctor App',
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          colorScheme:
+              ColorScheme.fromSeed(seedColor: ColorsManager.primaryColor),
           useMaterial3: true,
         ),
         routerConfig: router,
