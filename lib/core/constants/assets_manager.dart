@@ -5,6 +5,10 @@ class Assets {
   /// assets/images/doctor.png
   static const String assetsImagesDoctor = "assets/images/doctor.png";
 
+  /// Assets for assetsImagesSplash
+  /// assets/images/splash.png
+  static const String assetsImagesSplash = "assets/images/splash.png";
+
   /// Assets for assetsSvgsLogo
   /// assets/svgs/logo.svg
   static const String assetsSvgsLogo = "assets/svgs/logo.svg";
