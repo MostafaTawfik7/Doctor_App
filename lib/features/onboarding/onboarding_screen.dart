@@ -22,7 +22,7 @@ class OnboardingScreen extends StatelessWidget {
               const DoctorImageAndText(),
               Text(
                 'Manage and schedule all of your medical appointments easily\nwith Docdoc to get a new experience.',
-                style: TextStyles.font10Grey400Weight,
+                style: TextStyles.font10GrayRegular,
                 textAlign: TextAlign.center,
               ),
               Padding(
