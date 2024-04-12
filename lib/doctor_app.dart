@@ -15,8 +15,7 @@ class DoctorApp extends StatelessWidget {
       child: MaterialApp.router(
         title: 'Doctor App',
         theme: ThemeData(
-          colorScheme:
-              ColorScheme.fromSeed(seedColor: ColorsManager.primaryColor),
+          colorScheme: ColorScheme.fromSeed(seedColor: ColorsManager.mainBlue),
           useMaterial3: true,
         ),
         routerConfig: router,
